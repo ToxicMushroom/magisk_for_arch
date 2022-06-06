@@ -2,7 +2,7 @@
 echo "##############################################################################################"
 echo "Installing dependencies"
 echo "##############################################################################################"
-sudo apt install adb fastboot dos2unix unzip ed -y
+sudo apt install adb fastboot dos2unix unzip ed curl -y
 PATH=$PATH:/usr/lib/android-sdk/platform-tools/fastboot
 PATH=$PATH:/usr/lib/android-sdk/platform-tools/adb
 #Delete old dir
