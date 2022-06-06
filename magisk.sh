@@ -56,7 +56,6 @@ sed -i 's/getprop/adb shell getprop/g' util_functions.sh
 echo "##############################################################################################"
 echo "Waiting for adb conenction"
 echo "##############################################################################################"
-echo "Waiting for adb conection"
 while true; do adb get-state > /dev/null 2>&1 && break; done
 #Patch
 echo "##############################################################################################"
