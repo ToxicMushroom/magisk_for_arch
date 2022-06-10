@@ -6,6 +6,8 @@
 
 # If you got stuck on "unpacking boot image", use the magisk_canary.sh instead.
 
+# Tested on ubuntu (20.04, 22.04) and debian 9 64 bit.
+
 1 - Allow to be executed  -->> chmod +x magisk.sh
 
 2 - Run the script  -->> ./magisk.sh
