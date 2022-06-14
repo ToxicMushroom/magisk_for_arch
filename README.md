@@ -3,6 +3,7 @@
 - !BEFORE RUN MAKE SURE YOU HAVE USB DEBUG ENABLED AND YOU HAVE TRUSTED THE COMPUTER!
 - !THIS RUN ONLY ON DEBIAN BASED! APT COMMANDS!
 - !YOU CAN REPLACE THEM WITH YOUR DISTRO PACKAGE MANAGER!
+- Tested on ubuntu (20.04, 21.10, 22.04) and debian 11 64 bit.
 
 # How to use
 
@@ -22,9 +23,8 @@ Command to generate the vbmeta image by yourself --> avbtool make_vbmeta_image -
 
 # Troubleshoot
 
-If you got stuck on "unpacking boot image", use the magisk_canary.sh instead.
-If this not fix the issue, try to install the last unzip from this repo using  -->> sudo dpkg -i unzip_xxx.deb.
-Tested on ubuntu (20.04, 21.10, 22.04) and debian 11 64 bit.
+  - If you got stuck on "unpacking boot image", use the magisk_canary.sh instead.
+  - If this not fix the issue, try to install the last unzip from this repo using  -->> sudo dpkg -i unzip_xxx.deb. (64 bit packages)
 
 # Credits 
 
