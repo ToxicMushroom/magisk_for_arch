@@ -3,7 +3,7 @@
 - !BEFORE RUN MAKE SURE YOU HAVE USB DEBUG ENABLED AND YOU HAVE TRUSTED THE COMPUTER!
 - !THIS RUN ONLY ON DEBIAN BASED! APT COMMANDS!
 - !YOU CAN REPLACE THEM WITH YOUR DISTRO PACKAGE MANAGER!
-- 
+
 # How to use
 
 1 - Allow the script to be executed typing on terminal -->> chmod +x magisk.sh
