@@ -4,11 +4,14 @@
 - !THIS RUN ONLY ON DEBIAN BASED! APT COMMANDS!
 - !YOU CAN REPLACE THEM WITH YOUR DISTRO PACKAGE MANAGER!
 
-If you got stuck on "unpacking boot image", use the magisk_canary.sh instead.
+ # Troubleshoot
+  If you got stuck on "unpacking boot image", use the magisk_canary.sh instead.
 
-If this not fix the issue, try to install the last unzip from this repo using  -->> sudo dpkg -i unzip.deb.
+  If this not fix the issue, try to install the last unzip from this repo using  -->> sudo dpkg -i unzip.deb.
+  
+  Tested on ubuntu (20.04, 21.10, 22.04) and debian 11 64 bit.
 
-# Tested on ubuntu (20.04, 22.04) and debian 9 64 bit.
+# How to use
 
 1 - Allow the script to be executed typing on terminal -->> chmod +x magisk.sh
 
@@ -22,6 +25,8 @@ If this not fix the issue, try to install the last unzip from this repo using  -
 
 Since this script patch only the boot.img, there's a patched vbmeta image too in this repo. 
 
-Command to generate the vbmeta image --> avbtool make_vbmeta_image --flags 2 --padding_size 4096 --output vbmeta_disabled.img
+Command to generate the vbmeta image by yourself --> avbtool make_vbmeta_image --flags 2 --padding_size 4096 --output vbmeta_disabled.img
+
+# Credits 
 
 Based on the things discovered by https://dev.sect0uch.world/SecT0uch/Magisk_boot_flasher#run-patch-boot-locally.
