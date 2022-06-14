@@ -6,7 +6,7 @@
 
 If you got stuck on "unpacking boot image", use the magisk_canary.sh instead.
 
-If this not fix the issue and you are on ubuntu, try to install the last unzip from this repo using sudo dpkg -i unzip_amd64.deb.
+If this not fix the issue and you are on ubuntu, try to install the last unzip from this repo using  -->> sudo dpkg -i unzip_amd64.deb.
 
 # Tested on ubuntu (20.04, 22.04) and debian 9 64 bit.
 
