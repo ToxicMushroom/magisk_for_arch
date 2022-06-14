@@ -3,14 +3,7 @@
 - !BEFORE RUN MAKE SURE YOU HAVE USB DEBUG ENABLED AND YOU HAVE TRUSTED THE COMPUTER!
 - !THIS RUN ONLY ON DEBIAN BASED! APT COMMANDS!
 - !YOU CAN REPLACE THEM WITH YOUR DISTRO PACKAGE MANAGER!
-
- # Troubleshoot
-  If you got stuck on "unpacking boot image", use the magisk_canary.sh instead.
-
-  If this not fix the issue, try to install the last unzip from this repo using  -->> sudo dpkg -i unzip.deb.
-  
-  Tested on ubuntu (20.04, 21.10, 22.04) and debian 11 64 bit.
-
+- 
 # How to use
 
 1 - Allow the script to be executed typing on terminal -->> chmod +x magisk.sh
@@ -26,6 +19,12 @@
 Since this script patch only the boot.img, there's a patched vbmeta image too in this repo. 
 
 Command to generate the vbmeta image by yourself --> avbtool make_vbmeta_image --flags 2 --padding_size 4096 --output vbmeta_disabled.img
+
+# Troubleshoot
+
+If you got stuck on "unpacking boot image", use the magisk_canary.sh instead.
+If this not fix the issue, try to install the last unzip from this repo using  -->> sudo dpkg -i unzip_xxx.deb.
+Tested on ubuntu (20.04, 21.10, 22.04) and debian 11 64 bit.
 
 # Credits 
 
