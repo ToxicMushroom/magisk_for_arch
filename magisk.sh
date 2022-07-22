@@ -65,7 +65,6 @@ echo "##########################################################################
 echo "Now if the adb is working we can patch the image"
 echo ""
 read -e -p "Enter filename : " file
-eval xyz=${abc[i]}
 eval file=$file
 echo "$file" | tr -d ''
 sh boot_patch.sh $file
