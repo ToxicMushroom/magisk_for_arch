@@ -62,7 +62,7 @@ echo "Be sure adb is running and you have allowed on your phone"
 echo "##############################################################################################"
 echo "Now if the adb is working we can patch the image"
 echo ""
-read -e -p "Enter filename : " file
+read -e -p "Drag & drop your boot.img : " file
 eval file=$file
 echo "$file" | tr -d ''
 sh boot_patch.sh $file
