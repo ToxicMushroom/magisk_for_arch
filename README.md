@@ -6,7 +6,7 @@
 
 # How to  run
 
-  wget https://raw.githubusercontent.com/daboynb/magisk_for_linux/main/magisk.sh && chmod +x magisk.sh && sudo ./magisk.sh
+     wget https://raw.githubusercontent.com/daboynb/magisk_for_linux/main/magisk.sh && chmod +x magisk.sh && sudo ./magisk.sh
 
   When it will ask for a device connect it
 
