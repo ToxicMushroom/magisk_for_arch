@@ -1,30 +1,24 @@
 # magisk_for_linux
 
-- !BEFORE RUN MAKE SURE YOU HAVE USB DEBUG ENABLED AND YOU HAVE TRUSTED THE COMPUTER!
-- !THIS RUN ONLY ON DEBIAN BASED! APT COMMANDS!
-- !YOU CAN REPLACE THEM WITH YOUR DISTRO PACKAGE MANAGER!
+- BEFORE RUN MAKE SURE YOU HAVE USB DEBUG ENABLED AND YOU HAVE TRUSTED THE COMPUTER.
+- THIS USE APT COMMANDS. YOU CAN REPLACE THEM WITH YOUR DISTRO PACKAGE MANAGER.
 - Tested on ubuntu (20.04, 21.10, 22.04) and debian 11 64 bit.
 
-# How to use
+# How to  run
 
-1 - Allow the script to be executed typing on terminal -->> chmod +x magisk.sh
+  wget https://raw.githubusercontent.com/daboynb/magisk_for_linux/main/magisk.sh && chmod +x magisk.sh && sudo ./magisk.sh
 
-2 - Run the script  -->> ./magisk.sh
+  When it will ask for a device connect it
 
-3 - When it will ask for a device connect it
+   Insert the path to the stock boot.img
 
-4 - Insert the path to the stock boot.img
+   Wait and when completed your file will be on /home/$USER/Magisk/pc_magisk
 
-5 - Wait and when completed your file will be on /home/$USER/Magisk/pc_magisk
+# Extras
 
 Since this script patch only the boot.img, there's a patched vbmeta image too in this repo. 
 
 Command to generate the vbmeta image by yourself --> avbtool make_vbmeta_image --flags 2 --padding_size 4096 --output vbmeta_disabled.img
-
-# Troubleshoot
-
-  - If you got stuck on "unpacking boot image", use the magisk_canary.sh instead.
-  - If this not fix the issue, try to install the last unzip from this repo using  -->> sudo dpkg -i unzip_xxx.deb. (64 bit packages)
 
 # Credits 
 
