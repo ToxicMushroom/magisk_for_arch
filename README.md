@@ -12,7 +12,9 @@
 
   - Insert the path to the stock boot.img
 
-  - Wait. When the process will be finished your patched boot.img will be on the /home/$USER/Magisk/pc_magisk foler
+  - Wait
+  
+  - When the process will be finished your patched boot.img will be on the /home/$USER/Magisk/pc_magisk folder
 
 # Extras
 
