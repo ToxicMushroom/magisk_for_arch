@@ -8,11 +8,11 @@
 
      wget https://raw.githubusercontent.com/daboynb/magisk_for_linux/main/magisk.sh && chmod +x magisk.sh && sudo ./magisk.sh
 
-  When it will ask for a device connect it
+  - When it will ask for a device connect it
 
-   Insert the path to the stock boot.img
+  - Insert the path to the stock boot.img
 
-   Wait and when completed your file will be on /home/$USER/Magisk/pc_magisk
+  - Wait. When the process will be finished your patched boot.img will be on the /home/$USER/Magisk/pc_magisk foler
 
 # Extras
 
