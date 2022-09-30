@@ -8,19 +8,19 @@
 
      wget https://raw.githubusercontent.com/daboynb/magisk_for_linux/main/magisk.sh && chmod +x magisk.sh && ./magisk.sh
 
-  - When it will ask for a device connect it
+  - When it ask for a device connect the phone
 
-  - Insert the path to the stock boot.img
+  - Drag & drop into the terminal the stock boot.img
 
-  - Wait
-  
-  - When the process will be finished your patched boot.img will be on the /home/$USER/Magisk/pc_magisk folder
+  - Done, the patched boot.img will be inside the /home/$USER/Magisk/pc_magisk folder
 
 # Extras
 
 Since this script patch only the boot.img, there's a patched vbmeta image too in this repo. 
 
-Command to generate the vbmeta image by yourself --> avbtool make_vbmeta_image --flags 2 --padding_size 4096 --output vbmeta_disabled.img
+Command to generate the vbmeta image by yourself :
+
+     python avbtool.py make_vbmeta_image --flags 2 --padding_size 4096 --output vbmeta_disabled.img
 
 # Credits 
 
