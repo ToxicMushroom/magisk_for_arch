@@ -16,7 +16,7 @@
 
 # Extras
 
-Since this script patch only the boot.img, there's a patched vbmeta image too in this repo. 
+Since this script patches only the boot.img, there's a patched vbmeta image too in this repo. 
 
 Command to generate the vbmeta image by yourself :
 
