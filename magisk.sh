@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "The first option should work, if not try the second one. If both fails install the last unzip aviable"
+echo "The first option should work, if not try the second one. If both fails install the lastest unzip aviable"
 
 # Menu
 mainmenu() {
