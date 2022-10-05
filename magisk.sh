@@ -1,14 +1,10 @@
 #!/bin/bash
 
-echo "The first option should work, if not try the second one. If both fails install the lastest unzip aviable"
-
 # Menu
 mainmenu() {
     echo -ne "
 1) Use the last stable magisk 
 2) Use magisk canary
-3) Install lastest unzip Ubuntu
-4) Install lastest unzip Debian
 0) Exit
 Choose an option:  "
     read -r ans
@@ -76,9 +72,9 @@ Choose an option:  "
             while true; do adb get-state > /dev/null 2>&1 && break; done
             #Patch
             echo "##############################################################################################"
-            echo "Be sure adb is running and you have allowed on your phone"
+            echo "You need to accept the popup that appears on the phone"
             echo "##############################################################################################"
-            echo "Now if the adb is working we can patch the image"
+            echo "Now if adb is working we can patch the image"
             echo ""
             read -e -p "Drag & drop your boot.img : " file
             eval file=$file
@@ -145,7 +141,7 @@ Choose an option:  "
             while true; do adb get-state > /dev/null 2>&1 && break; done
             #Patch
             echo "##############################################################################################"
-            echo "Be sure adb is running and you have allowed on your phone"
+            echo "You need to accept the popup that appears on the phone"
             echo "##############################################################################################"
             echo "Now if the adb is working we can patch the image"
             echo ""
@@ -154,19 +150,6 @@ Choose an option:  "
             echo "$file" | tr -d ''
             sh boot_patch.sh $file
         ;;
-    3)      
-            
-            wget https://github.com/daboynb/magisk_for_linux/raw/main/unzip_6.0-26_ubuntu_amd64.deb
-            sudo dpkg -i unzip_6.0-26_ubuntu_amd64.deb
-            sudo apt install -f -y
-            echo "Completed"
-            ;;
-    4)      
-            wget https://github.com/daboynb/magisk_for_linux/raw/main/unzip_6.0-26_debian_amd64.deb
-            sudo dpkg -i unzip_6.0-26_debian_amd64.deb
-            sudo apt install -f -y
-            echo "Completed"
-            ;;
     0)      
             echo "Bye bye."
             exit 0
