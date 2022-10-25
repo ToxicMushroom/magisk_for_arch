@@ -143,7 +143,7 @@ Choose an option:  "
             echo "##############################################################################################"
             echo "You need to accept the popup that appears on the phone"
             echo "##############################################################################################"
-            echo "Now if the adb is working we can patch the image"
+            echo "Now if adb is working we can patch the image"
             echo ""
             read -e -p "Drag & drop your boot.img : " file
             eval file=$file
