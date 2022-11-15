@@ -78,7 +78,6 @@ Choose an option:  "
             echo ""
             read -e -p "Drag & drop your boot.img : " file
             eval file=$file
-            echo "$file" | tr -d ''
             sh boot_patch.sh $file
         ;;
     2)
@@ -147,7 +146,6 @@ Choose an option:  "
             echo ""
             read -e -p "Drag & drop your boot.img : " file
             eval file=$file
-            echo "$file" | tr -d ''
             sh boot_patch.sh $file
         ;;
     0)      
