@@ -1,16 +1,12 @@
-If you wanna help me
+# magisk_for_arch
 
-<a href="https://www.buymeacoffee.com/daboynb" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-# magisk_for_linux
-
-- BEFORE RUN MAKE SURE YOU HAVE USB DEBUG ENABLED AND YOU HAVE TRUSTED THE COMPUTER.
-- THIS SCRIPT USES APT COMMANDS. YOU CAN REPLACE THEM WITH YOUR DISTRO PACKAGE MANAGER.
-- Tested on ubuntu (20.04, 21.10, 22.04) and debian 11 64 bit.
+- BEFORE RUN MAKE SURE YOU HAVE USB DEBUGGING ENABLED AND YOU HAVE TRUSTED THE COMPUTER.
+- THIS SCRIPT USES PACMAN COMMANDS. YOU CAN REPLACE THEM WITH YOUR DISTRO PACKAGE MANAGER.
+- Tested on arch.
 
 # How to  run
 
-     wget https://raw.githubusercontent.com/daboynb/magisk_for_linux/main/magisk.sh && chmod +x magisk.sh && ./magisk.sh
+     wget https://raw.githubusercontent.com/toxicmushroom/magisk_for_arch/main/magisk.sh && chmod +x magisk.sh && ./magisk.sh
 
   - When it ask for a device connect the phone
 
